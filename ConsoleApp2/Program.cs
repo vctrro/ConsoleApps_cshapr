@@ -29,7 +29,7 @@ namespace ConsoleApp2
                 Console.WriteLine("Элемент: \"{0}\", значение {1}", number, (int)number);
 
             number = Numbers.Five;
-            number +=3;
+            number += 3;
             Console.WriteLine(number);
 
 
