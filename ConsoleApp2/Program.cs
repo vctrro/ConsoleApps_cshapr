@@ -21,6 +21,7 @@ namespace ConsoleApp2
             Console.WriteLine(sum2);  // output: 6
 
             var sum3 = SumNumbers(numberSets, 1);
+
             Console.WriteLine(sum3);  // output: NaN            
         }
     }
