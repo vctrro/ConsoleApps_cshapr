@@ -10,7 +10,6 @@
 *.userosscache
 *.sln
 *.docstates
-*.csproj
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -58,6 +57,8 @@ BenchmarkDotNet.Artifacts/
 project.lock.json
 project.fragment.lock.json
 artifacts/
+*.csproj
+*.json
 
 # StyleCop
 StyleCopReport.xml
@@ -297,6 +298,7 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+*.iml
 
 # CodeRush personal settings
 .cr/personal
