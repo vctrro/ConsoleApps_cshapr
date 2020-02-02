@@ -6,8 +6,6 @@ namespace ConsoleApp3
     {
         delegate Func<T, int> del1<T>();  //Func<int, int> - это тип возвращаемого значения функция (int) => int 
         delegate ref int renm1(ref int x);
-        int potriol;
-        bool gfoig;
 
         class Class1
         {
@@ -38,10 +36,6 @@ namespace ConsoleApp3
 
         static void Main(string[] args)
         {
-            Program ad = new Program();
-            ad.potriol = 5;
-            ad.gfoig = false;
-
             Func<int, int> fun1 = i => i * i;
             del1<int> a = () => fun1;
 

@@ -56,13 +56,12 @@ namespace Arrays
             int[][] arr40 = new int[5][]; // зубчатый массив, массив из массивов разной длины
             arr40[0] = arr10;
             arr40[1] = new int[] { 10, 5, 7, 15 };
+            arr40[2] = new int[arr13.Length];
             Array.Copy(arr13, arr40[2], arr13.Length);
-            Array.Copy(arr14, 0, arr40[3], 5, arr13.Length);
+            arr40[3] = new int[arr14.Length*2];
+            Array.Copy(arr14, 0, arr40[3], 4, arr14.Length);
 
-
-
-
-            Console.WriteLine($"{arr40[3]}");
+            Console.WriteLine($"{String.Join(", ", arr40[3])}");
         }
     }
 }
