@@ -22,14 +22,12 @@ namespace ConsoleApp3
             return (b, c) => function(arg1, b, c);
         }
 
-        static Func<T3, TResult> ApplyPartial<T2, T3, TResult>
-            (Func<T2, T3, TResult> function, T2 arg2)
+        static Func<T3, TResult> ApplyPartial<T2, T3, TResult>(Func<T2, T3, TResult> function, T2 arg2)
         {
             return (c) => function(arg2, c);
         }
 
-        static Func<TResult> ApplyPartial<T3, TResult>
-            (Func<T3, TResult> function, T3 arg3)
+        static Func<TResult> ApplyPartial<T3, TResult>(Func<T3, TResult> function, T3 arg3)
         {
             return () => function(arg3);
         }
