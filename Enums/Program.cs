@@ -8,17 +8,17 @@ namespace Enums
     {
         enum Numbers { One = 1, Two, Five = 5, Six, Seven, Any = 255 }
 
-         
+
         public enum ColorsRGB //перечисления как битовые флаги, значения должны быть степенью двойки 1,2,4,8,16...
-        { 
+        {
             Red = 1,    // 0b_0000_0001
             Green = 2,  // 0b_0000_0010
             Blue = 4    // 0b_0000_0100
         }
-        
+
         [Flags]
         public enum ColorsCMYK //перечисления как битовые флаги, значения должны быть степенью двойки 1,2,4,8,16...
-        { 
+        {
             Cyan = 1,       // 0b_0000_0001
             Magenta = 2,    // 0b_0000_0010
             Yellow = 4,     // 0b_0000_0100
@@ -30,12 +30,12 @@ namespace Enums
             Numbers number;
             for (number = Numbers.One; number <= Numbers.Seven; number++)
                 Console.WriteLine("Элемент: {0}, \tзначение {1}", number, (int)number); //странное поведение
-            
+
             foreach (Numbers item in Enum.GetValues(typeof(Numbers)))
             {
                 Console.WriteLine("{0} \t {1} \t {2} \t {3}",
                                     item.ToString("G"), item.ToString("F"), item.ToString("D"), item.ToString("X")); //форматирование вывода
-            }            
+            }
 
             int x = (int)Numbers.Six;        //
             number = (Numbers)x + 250;       // различные преобразования
@@ -69,7 +69,7 @@ namespace Enums
                 foreach (var color2 in colors)
                 {
                     if (color1.Key != color2.Key)
-                    Console.WriteLine($"{color1.Key} & {color2.Key} : {color1.Value & color2.Value}");
+                        Console.WriteLine($"{color1.Key} & {color2.Key} : {color1.Value & color2.Value}");
                 }
             }
         }

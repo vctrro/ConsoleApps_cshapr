@@ -22,7 +22,7 @@ namespace DelgateForNotes
         // Пользовательская функция сравнение, возвращающая булевое значение
         public static bool RhsIsGreater(object lhs, object rhs)
         {
-            Student stdLhs = (Student)lhs;
+             Student stdLhs = (Student)lhs;
             Student stdRhs = (Student)rhs;
             return stdRhs.marks > stdLhs.marks;
         }
