@@ -24,8 +24,6 @@ namespace DelgateForNotes
         new Student("Brett", 10, 567)
       };
 
-
-
             // Создание делегата с передачей
             // статического метода класса Student в качестве аргумента
             // CompareDelegate StudentCompareOp = new CompareDelegate(Student.RhsIsGreater);
