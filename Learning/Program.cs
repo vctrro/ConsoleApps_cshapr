@@ -19,7 +19,7 @@ namespace Learning
 
             scope.SetVariable("y", y);
             engine.Execute(@"print 'hello'");
-            engine.ExecuteFile(@"D:\Projects\csharp\ConsoleApps_cshapr\Learning\code.py", scope);
+            engine.ExecuteFile(@"Learning/code.py", scope);
 
             dynamic func1 = scope.GetVariable("factorial");
             dynamic res1 = func1(y);
