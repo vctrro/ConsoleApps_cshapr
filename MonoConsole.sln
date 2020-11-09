@@ -1,17 +1,20 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{30824300-7F13-4476-907D-C28692EE11A9}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{30824300-7F13-4476-907D-C28692EE11A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{58BB564B-7CEC-4FC8-9DBB-0CD2E245EE4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{58BB564B-7CEC-4FC8-9DBB-0CD2E245EE4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{495E1BD6-A741-4A30-876B-84449F9319CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{495E1BD6-A741-4A30-876B-84449F9319CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{D7F6507A-49A4-49D5-9A26-DC59FE6A6B0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{D7F6507A-49A4-49D5-9A26-DC59FE6A6B0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj", "{CD8E8108-5666-4E55-B81B-A3B89A43BC84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enums", "Enums\Enums.csproj", "{CD8E8108-5666-4E55-B81B-A3B89A43BC84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning", "Learning\Learning.csproj", "{2DA74BD6-F3FF-48B1-A310-2BFB7F0B8AFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learning", "Learning\Learning.csproj", "{2DA74BD6-F3FF-48B1-A310-2BFB7F0B8AFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pointers", "Pointers\Pointers.csproj", "{D605C41F-2D6E-4047-82D7-D94947A6CC49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,5 +46,15 @@ Global
 		{2DA74BD6-F3FF-48B1-A310-2BFB7F0B8AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DA74BD6-F3FF-48B1-A310-2BFB7F0B8AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DA74BD6-F3FF-48B1-A310-2BFB7F0B8AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D605C41F-2D6E-4047-82D7-D94947A6CC49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D605C41F-2D6E-4047-82D7-D94947A6CC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D605C41F-2D6E-4047-82D7-D94947A6CC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D605C41F-2D6E-4047-82D7-D94947A6CC49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15221C28-90E4-4AAF-95DF-4F0B394B2609}
 	EndGlobalSection
 EndGlobal

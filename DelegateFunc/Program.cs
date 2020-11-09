@@ -16,7 +16,7 @@ namespace ConsoleApp3
             return a + b + c;
         }
 
-        //пеуженные версии ApplyPartial принимают аргументы и подставляют их в другие позиции в окончательном выполнении    функции
+        //перегруженные версии ApplyPartial принимают аргументы и подставляют их в другие позиции в окончательном выполнении    функции
         static Func<T2, T3, TResult> ApplyPartial<T1, T2, T3, TResult>(Func<T1, T2, T3, TResult> function, T1 arg1)
         {
             return (b, c) => function(arg1, b, c);
