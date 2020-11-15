@@ -16,6 +16,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Python", "Python\Python.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pointers", "Pointers\Pointers.csproj", "{D605C41F-2D6E-4047-82D7-D94947A6CC49}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labyrinth", "Labyrinth\Labyrinth.csproj", "{1254F35E-A2D9-4C3E-8F6C-C8060E7ED13F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Records", "Records\Records.csproj", "{2BB0D724-E81C-4D0C-8C22-240C7631C1F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +54,14 @@ Global
 		{D605C41F-2D6E-4047-82D7-D94947A6CC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D605C41F-2D6E-4047-82D7-D94947A6CC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D605C41F-2D6E-4047-82D7-D94947A6CC49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1254F35E-A2D9-4C3E-8F6C-C8060E7ED13F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1254F35E-A2D9-4C3E-8F6C-C8060E7ED13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1254F35E-A2D9-4C3E-8F6C-C8060E7ED13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1254F35E-A2D9-4C3E-8F6C-C8060E7ED13F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BB0D724-E81C-4D0C-8C22-240C7631C1F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB0D724-E81C-4D0C-8C22-240C7631C1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB0D724-E81C-4D0C-8C22-240C7631C1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB0D724-E81C-4D0C-8C22-240C7631C1F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
